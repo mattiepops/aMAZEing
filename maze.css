@@ -1,13 +1,50 @@
-.tile {
-    width: 20px;
-    height: 20px;
+.body{
+    display : flex;
+    flex-wrap: wrap;
+    width: 650px;
 }
-
-.walls {
+.mazeboxes{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.wall{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-image : url(/lava.png);
+    background-size: cover;
     background-color: red;
 }
 
-.path {
-    background-color: aqua;
+.end {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-image: url(/megamushroom.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: yellowgreen;
+    
+}
+.start {
+    width: 50px;
+    height: 50px;
+    display: flex;  
+    align-self: center;
+    justify-content: center;
+    background-color: yellowgreen;
+
 }
 
+.mario {
+background-image: url(/mario.png);
+background-size: contain;
+background-repeat: no-repeat;
+width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: yellowgreen;
+    border-radius: 50%;
+}
