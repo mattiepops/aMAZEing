@@ -1,14 +1,32 @@
 .body{
     display : flex;
     flex-wrap: wrap;
+    /* flex-direction: column; */
     width: 650px;
 }
-.mazeboxes{
+
+.lineDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.path{
     width: 50px;
     height: 50px;
     text-align: center;
     background-color: yellowgreen;
 }
+
+.tile{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
 .wall{
     width: 50px;
     height: 50px;
@@ -18,7 +36,7 @@
     background-color: red;
 }
 
-.end {
+.end{
     width: 50px;
     height: 50px;
     text-align: center;
@@ -28,7 +46,7 @@
     background-color: yellowgreen;
     
 }
-.start {
+.start{
     width: 50px;
     height: 50px;
     display: flex;  
@@ -38,7 +56,7 @@
 
 }
 
-.mario {
+.mario{
 background-image: url(/mario.png);
 background-size: contain;
 background-repeat: no-repeat;
