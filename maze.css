@@ -1,23 +1,24 @@
-.body{
-    display : flex;
+.body {
+    display: flex;
     flex-wrap: wrap;
     /* flex-direction: column; */
     width: 650px;
+    justify-content: center;
 }
 
-.lineDiv{
+.lineDiv {
     display: flex;
     flex-direction: row;
 }
 
-.path{
+.path {
     width: 50px;
     height: 50px;
     text-align: center;
     background-color: yellowgreen;
 }
 
-.tile{
+.tile {
     width: 50px;
     height: 50px;
     text-align: center;
@@ -27,16 +28,16 @@
 }
 
 
-.wall{
+.wall {
     width: 50px;
     height: 50px;
     text-align: center;
-    background-image : url(/lava.png);
+    background-image: url(/lava.png);
     background-size: cover;
     background-color: red;
 }
 
-.end{
+.end {
     width: 50px;
     height: 50px;
     text-align: center;
@@ -44,25 +45,54 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-color: yellowgreen;
-    
+
 }
-.start{
+
+.start {
     width: 50px;
     height: 50px;
-    display: flex;  
+    display: flex;
     align-self: center;
     justify-content: center;
     background-color: yellowgreen;
 
 }
 
-.mario{
-background-image: url(/mario.png);
-background-size: contain;
-background-repeat: no-repeat;
-width: 50px;
+.mario {
+    background-image: url(/mario.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
     height: 50px;
     text-align: center;
     background-color: yellowgreen;
     border-radius: 50%;
+}
+
+section {
+    margin: 5px;
+}
+
+.timer {
+    font-size: 3em;
+    color: black;
+    margin-top: 0;
+}
+
+.box {
+    background-image: url(/Goomba.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-self: center;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    position: absolute; 
+    top: 113px; 
+    left: 100px; 
+   
+
 }
