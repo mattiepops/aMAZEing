@@ -1,14 +1,14 @@
-.body {
+body {
     display: flex;
-    flex-wrap: wrap;
-    /* flex-direction: column; */
-    width: 650px;
-    justify-content: center;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    /* width: 650px; */
+    /* justify-content: center; */
 }
 
 .lineDiv {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
 }
 
 .path {
@@ -93,6 +93,5 @@ section {
     position: absolute; 
     top: 113px; 
     left: 100px; 
-   
 
 }
