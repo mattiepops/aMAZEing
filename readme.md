@@ -3,7 +3,7 @@ ________
 
 Wecome ***Kelian*** and/or ***Emily*** to my masterpiece! :bowtie:
 
-Please find the **maze project link** [here] (https://mattiepops.github.io/maze/).
+Please find the **maze project link** [here] (https://mattiepops.github.io/aMAZEing/).
 
 ### Reason for this project:
 ________
