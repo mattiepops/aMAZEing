@@ -3,7 +3,7 @@ ________
 
 Wecome ***Kelian*** and/or ***Emily*** to my masterpiece! :bowtie:
 
-Please find the **maze project link** [here] ().
+Please find the **maze project link** [here] (https://mattiepops.github.io/maze/).
 
 ### Reason for this project:
 ________
@@ -12,6 +12,11 @@ We were asked to put our newly discovered JS skills to test, by creating a basic
 
 We were asked to code all elements and functions directly in JS.
 
+
+Bonus Level 4
+_____________
+
+If you think you're super cool because you managed to complete the first 3 levels, good luck completing level 4!
 
 ### What did I learn from this experience:
 
